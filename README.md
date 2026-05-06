@@ -4,7 +4,7 @@
 
 **Curated List of Platforms, Tools, Books, Courses & Open-Source Projects**  
 *Focused on Algorithms, Data Structures, Problem Solving & Contest Preparation*  
-**Last updated: March 2026**
+**Last updated: May 2026**
 
 This repository is a comprehensive guide to the **best resources for competitive programming** and algorithmic problem-solving. It covers everything from beginner foundations to advanced topics like dynamic programming, graph algorithms, number theory, and contest strategies. These resources help you master data structures, optimize solutions, participate in contests (Codeforces, AtCoder, ICPC, etc.), and prepare for technical interviews.
 
@@ -47,30 +47,54 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 - **[TopCoder](https://www.topcoder.com/)**  
   SRM contests and algorithm-focused challenges with strong educational resources.
 
-**Other notable platforms**: HackerRank, HackerEarth, Google Code Jam / Kick Start, Meta Hacker Cup, USACO, Project Euler, Kattis.
+- **[Kattis](https://open.kattis.com/)**  
+  A problem archive and contest platform used by many universities and world-class competitions like ICPC.
+
+- **[UVa Online Judge](https://onlinejudge.org/)**  
+  A historic archive with thousands of problems. Best used alongside **[uHunt](https://uhunt.onlinejudge.org/)** for structured learning.
+
+- **[Timus Online Judge](https://acm.timus.ru/)**  
+  Large Russian archive of problems, often featuring high-quality challenges from Ural Federal University contests.
+
+- **[CS Academy](https://csacademy.com/)**  
+  Online judge with interactive lessons, regular contests, and a powerful graph visualizer.
+
+- **[Virtual Judge (VJudge)](https://vjudge.net/)**  
+  Allows creating custom contests by pulling problems from multiple online judges (Codeforces, SPOJ, UVa, etc.).
+
+**Other notable platforms**: HackerRank, HackerEarth, Meta Hacker Cup, Google Kickstart, USACO, Project Euler, HDU OJ, Aizu Online Judge.
 
 ## Books & Handbooks
 
 - **[Competitive Programmer's Handbook](https://cses.fi/book/book.pdf)** by Antti Laaksonen — Free, comprehensive, and highly recommended starting point.
-- **[Competitive Programming 4](https://cpbook.net/)** by Steven & Felix Halim — The "bible" of CP with extensive problem sets.
-- **[Guide to Competitive Programming](https://link.springer.com/book/10.1007/978-3-030-39357-1)** by Antti Laaksonen.
-- **[Programming Challenges](https://www.amazon.com/Programming-Challenges-Contest-Training-Computer/dp/0387001638)** by Skiena & Revilla.
-- **[Algorithmic Thinking](https://nostarch.com/algorithmic-thinking)** by Daniel Zingaro.
-- **[Introduction to Algorithms (CLRS)](https://mitpress.mit.edu/9780262046305/)** — Foundational reference.
+- **[Competitive Programming 4](https://cpbook.net/)** by Steven & Felix Halim — The "bible" of CP with extensive problem sets and historical contest context.
+- **[Guide to Competitive Programming](https://link.springer.com/book/10.1007/978-3-030-39357-1)** by Antti Laaksonen — A more formal textbook based on the CSES project.
+- **[The Algorithm Design Manual](http://www.algorist.com/)** by Steven Skiena — Excellent for understanding how to apply algorithms to real-world problems and contests.
+- **[Programming Challenges](https://www.amazon.com/Programming-Challenges-Contest-Training-Computer/dp/0387001638)** by Skiena & Revilla — A classic training manual for competitive programming.
+- **[Algorithmic Thinking](https://nostarch.com/algorithmic-thinking)** by Daniel Zingaro — Teaches algorithms through the lens of CP problems (IOI, USACO).
+- **[Introduction to Algorithms (CLRS)](https://mitpress.mit.edu/9780262046305/)** — The foundational academic reference for algorithm theory.
+- **[Algorithms](https://algs4.cs.princeton.edu/home/)** by Robert Sedgewick & Kevin Wayne — Focused on implementation and visualization, particularly strong for Java users.
+- **[The Hitchhiker's Guide to the Programming Contests](https://comscigate.com/Books/contests/icpc.pdf)** — A free, community-driven book covering a wide range of CP topics.
 
 ## Courses & Tutorials
 
 ### Best Tutorial Sites
 - **[CP-Algorithms](https://cp-algorithms.com/)** — Gold standard for in-depth algorithm explanations (English version of e-maxx).
 - **[USACO Guide](https://usaco.guide/)** — Structured modules from Bronze to Platinum with problems and editorials.
-- **GeeksforGeeks** — Vast collection of articles and problem solutions.
-- **Topcoder Tutorials** — Classic high-quality data science/algorithm tutorials.
+- **[OI Wiki](https://oi-wiki.org/)** — Comprehensive, open-source guide for competitive programmers (available in Chinese and English).
+- **[Mostafa Saad's Training Sheet](https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kKw6188AUthhjWl7mlFZJ8W6S4M9no0/edit)** — A legendary problem set (~800 problems) for systematic training.
+- **[GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/)** — Massive archive of articles and problem solutions.
+- **[HackerEarth Practice](https://www.hackerearth.com/practice/)** — Features the "Code Monk" series for topic-wise learning.
+- **[PEGWiki](https://wcipeg.com/wiki/)** — In-depth, wiki-style writeups on many CP topics.
+- **[Commonlounge CP Community](https://www.commonlounge.com/community/competitive-programming)** — Curated tutorials and video content.
 
 ### Video Courses & Channels
-- Kunal Kushwaha DSA Bootcamp
-- Errichto, William Lin, SecondThread (Codeforces)
-- Algorithms Live! series
-- CodeChef Indian Programming Camp lectures
+- **[Kunal Kushwaha's DSA Bootcamp](https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_ZWDubPQXYuK9L8H6Lwde)** — Beginner-friendly Java-based algorithms series.
+- **[Errichto](https://www.youtube.com/c/Errichto)**, **[William Lin](https://www.youtube.com/c/WilliamLin168)**, **[SecondThread](https://www.youtube.com/c/SecondThread)** — High-level tips and screencasts from top Codeforces competitors.
+- **[Algorithms Live!](https://www.youtube.com/channel/UCN77O66Kst0YAL_Y9_72Gjw)** — Deep dives into advanced algorithmic topics.
+- **[Stanford CS 97SI](https://web.stanford.edu/class/cs97si/)** — Lecture slides and problems from Stanford's CP course.
+- **[ITMO edX Course](https://www.edx.org/course/how-win-coding-competitions-secrets-itmo-universityx-i2cpx-0)** — "How to Win Coding Competitions" by the world-renowned ITMO University.
+- **[Reykjavik T-414-ÁFLV](https://github.com/SuprDewd/T-414-AFLV)** — High-quality slides and practice problems from a university-level CP course.
 
 ## Open-Source GitHub Projects
 
@@ -79,30 +103,33 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 - **[lnishan/awesome-competitive-programming](https://github.com/lnishan/awesome-competitive-programming)**  
   The most comprehensive curated list of CP resources, books, tutorials, blogs, and tools collected over years.
 
-- **[matthewsamuel95/ACM-ICPC-Algorithms](https://github.com/matthewsamuel95/ACM-ICPC-Algorithms)**  
-  Extensive collection of algorithms and data structures with implementations in C++, Java, Python, and more. Covers BFS, DFS, DP, Graphs, Geometry, etc.
+- **[jnikhilreddy/Competitive-programming-resources](https://github.com/jnikhilreddy/Competitive-programming-resources)**  
+  A highly organized repository tailored for ACM-ICPC preparation, featuring lecture slides, problem sets, and algorithm implementations.
 
-- **[hkirat/Algorithmic-Resources](https://github.com/hkirat/Algorithmic-Resources)**  
-  Topic-wise theory + curated questions for Arrays, DP, Graphs, Greedy, Segment Trees, etc.
+- **[atcoder/ac-library](https://github.com/atcoder/ac-library)**  
+  The official AtCoder Library (ACL). Provides industry-standard, highly optimized implementations of segment trees, DSU, max flow, and more.
 
 - **[kunal-kushwaha/Competitive-Programming-Resources](https://github.com/kunal-kushwaha/Competitive-Programming-Resources)**  
-  Curated video tutorials, problem lists, books, and system design resources.
+  Curated video tutorials, problem lists, books, and system design resources for CP and interview prep.
+
+- **[Ahmedtronic/Competitive-Programming](https://github.com/Ahmedtronic/Competitive-Programming)**  
+  A structured roadmap breaking down CP into levels mapped to Codeforces rating targets.
 
 ### Implementation Repositories
-- **[TheAlgorithms/Python](https://github.com/TheAlgorithms/Python)**, **[Java](https://github.com/TheAlgorithms/Java)**, **[C++](https://github.com/TheAlgorithms/C-Plus-Plus)** — Massive collections of algorithm implementations.
-- **[Competitive Programming Templates](https://github.com/search?q=competitive+programming+template)** — Numerous language-specific template repos (e.g., C++ with policy-based data structures, fast I/O).
-- **[cp-algorithms implementations](https://github.com/cp-algorithms/cp-algorithms)** — Code accompanying the famous website.
-- **[usaco-guide solutions](https://github.com/usaco-guide/usaco-guide)** and community solution repos.
-- **[tourist (Gennady Korotkevich) templates](https://github.com/search?q=user%3Atourist+template)** and top competitors' public libraries.
-- **[Radewoosh's blog & code](https://github.com/Radewoosh)** and other red coders' repos.
+- **[TheAlgorithms/C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus)** — Massive collection of algorithm implementations, including a dedicated competitive programming section.
+- **[indy256/codelibrary](https://github.com/indy256/codelibrary)** — Extensive collection of algorithm implementations in Java and C++ by Andrey Naumenko.
+- **[kth-competitive-programming/kactl](https://github.com/kth-competitive-programming/kactl)** — Highly optimized and tested team notebook (team reference manual) from KTH Royal Institute of Technology.
+- **[cp-algorithms implementations](https://github.com/cp-algorithms/cp-algorithms)** — C++ code accompanying the famous CP-Algorithms website.
+- **[usaco-guide solutions](https://github.com/usaco-guide/usaco-guide)** and community solution repos for USACO problems.
+- **[tourist (Gennady Korotkevich) templates](https://github.com/search?q=user%3Atourist+template)** — Explore the coding style and templates of the world's #1 competitive programmer.
 
 ### Additional Strong Open-Source Options
-- **NetPyNE / Brian 2** (for specialized domains) — Not directly CP but useful for advanced modeling.
-- **C++ STL extensions & Policy-Based Data Structures** templates.
-- **Multiple language starters**: Fast input/output, modular arithmetic, debug templates.
-- Visualization tools: Algorithm visualizers on GitHub for sorting, graphs, DP.
+- **[kenkoooo/AtCoderProblems](https://github.com/kenkoooo/AtCoderProblems)** — Source code for the essential AtCoder visualization and recommendation tool.
+- **[cpeditor/cpeditor](https://github.com/cpeditor/cpeditor)** — The most popular specialized IDE designed specifically for competitive programming.
+- **[VisuAlgo](https://visualgo.net/en)** — Interactive visualization tools for algorithms and data structures.
+- **[OEIS (Online Encyclopedia of Integer Sequences)](https://oeis.org/)** — Invaluable for identifying mathematical patterns in combinatorics and number theory problems.
 
-**Frameworks & Tools**: Use **CP Editor**, **Competitive Companion** (browser extension), VS Code with CP setups, and local judges for offline practice. Combine with **GitHub** for version-controlled template libraries.
+**Frameworks & Tools**: Use **CP Editor**, **Competitive Companion** (browser extension), and **VS Code with CP setups**. Combine with **GitHub** for version-controlled personal template libraries. Use **Big-O Cheatsheet** for quick complexity references.
 
 ## How to Contribute
 
