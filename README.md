@@ -13,6 +13,7 @@
 <a href="https://github.com/ishandutta2007">
   <img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow&style=for-the-badge&logo=github&logoColor=white" alt="Github"/>
 </a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 ## 🌟 Top Resources for Competitive Programming & Algorithmic Programming Ecosystem
@@ -39,6 +40,7 @@ This repository is a comprehensive guide to the **best resources for competitive
 - [🎓 Courses & Tutorials](#courses--tutorials)
 - [💻 Open-Source GitHub Projects & Libraries](#open-source-github-projects)
 - [🤝 How to Contribute](#how-to-contribute)
+- [💖 Support](#support)
 - [⚖️ Disclaimer](#disclaimer)
 
 ## 🎯 Core Platforms & Practice Sites
@@ -160,6 +162,17 @@ This repository is a comprehensive guide to the **best resources for competitive
 4. **Submit PR** with a short explanation.
 
 ⭐ Star the repo if you find it useful!
+
+## 💖 Support
+
+Thank you for visiting and using this resource! If you find this repository helpful in your competitive programming journey or interview preparation, please consider supporting the project:
+
+- ⭐ **Star** this repository on GitHub to help others discover it.
+- 🍴 **Fork** and contribute your favorite algorithms, toolkits, and platforms.
+- 📢 **Share** it with your friends, college peers, and competitive programming communities.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing curation and maintenance, you can sponsor through the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007). Every bit of support is deeply appreciated!
+
+---
 
 ## ⚖️ Disclaimer
 
