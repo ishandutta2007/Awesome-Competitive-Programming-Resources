@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d18" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#070a12" />
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="35%" stop-color="#818cf8" />
+      <stop offset="70%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#f43f5e" />
+    </linearGradient>
+
+    <linearGradient id="glowCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="glowPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Pill Gradients -->
+    <linearGradient id="pillGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="circuitGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.5" stroke-opacity="0.25" />
+      <circle cx="40" cy="40" r="1" fill="#38bdf8" fill-opacity="0.2" />
+    </pattern>
+
+    <style>
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-8px) rotate(1deg); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 0.65; transform: scale(1.08); }
+      }
+      @keyframes waveDash {
+        to { stroke-dashoffset: -1000; }
+      }
+      @keyframes scanBeam {
+        0% { transform: translateX(-400px); opacity: 0; }
+        40% { opacity: 0.7; }
+        80% { opacity: 0.7; }
+        100% { transform: translateX(1300px); opacity: 0; }
+      }
+      @keyframes nodePulse {
+        0%, 100% { r: 4px; fill-opacity: 0.8; }
+        50% { r: 7px; fill-opacity: 1; }
+      }
+
+      .floating-bg { animation: floatSlow 7s ease-in-out infinite; }
+      .pulsing-orb { animation: pulseGlow 6s ease-in-out infinite alternate; transform-origin: center; }
+      .dash-flow { stroke-dasharray: 8 12; animation: waveDash 24s linear infinite; }
+      .scanner { animation: scanBeam 6s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+      .pulse-node { animation: nodePulse 3s ease-in-out infinite; }
+      .pill-hover { transition: transform 0.3s; }
+      .pill-hover:hover { transform: translateY(-3px); }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="420" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Subtle Circuit / Tech Grid -->
+  <rect width="1200" height="420" rx="16" fill="url(#circuitGrid)" />
+
+  <!-- Dynamic Animated Glow Orbs (Background layer) -->
+  <circle class="pulsing-orb" cx="200" cy="110" r="160" fill="url(#glowCyan)" />
+  <circle class="pulsing-orb" cx="1020" cy="300" r="180" fill="url(#glowPurple)" style="animation-delay: -3s;" />
+
+  <!-- Animated Binary & Algorithmic Network Flow (Middle layer) -->
+  <g opacity="0.45">
+    <!-- Algorithmic Graph Nodes & Edges -->
+    <path class="dash-flow" d="M -50 120 Q 300 40 600 130 T 1250 80" fill="none" stroke="#38bdf8" stroke-width="2" />
+    <path class="dash-flow" d="M -50 320 Q 350 380 700 290 T 1250 340" fill="none" stroke="#818cf8" stroke-width="1.8" style="animation-delay: -5s;" />
+    <path class="dash-flow" d="M 100 0 Q 350 210 650 180 T 1150 420" fill="none" stroke="#c084fc" stroke-width="1.2" stroke-opacity="0.6" style="animation-delay: -8s;" />
+
+    <!-- Graph Nodes -->
+    <circle cx="280" cy="98" class="pulse-node" fill="#38bdf8" />
+    <circle cx="580" cy="128" class="pulse-node" fill="#818cf8" style="animation-delay: -1s;" />
+    <circle cx="880" cy="92" class="pulse-node" fill="#c084fc" style="animation-delay: -2s;" />
+    <circle cx="340" cy="345" class="pulse-node" fill="#38bdf8" style="animation-delay: -1.5s;" />
+    <circle cx="700" cy="290" class="pulse-node" fill="#f43f5e" style="animation-delay: -0.5s;" />
+    <circle cx="990" cy="320" class="pulse-node" fill="#818cf8" style="animation-delay: -2.5s;" />
+  </g>
+
+  <!-- Scanning Light Beam Accent across Header (stays in background behind texts) -->
+  <g class="scanner">
+    <rect x="0" y="2" width="220" height="416" fill="url(#glowCyan)" opacity="0.3" transform="skewX(-25)" />
+  </g>
+
+  <!-- Foreground Content Container -->
+  <!-- Top Badge: Curated Ecosystem -->
+  <g transform="translate(600, 56)">
+    <rect x="-160" y="-16" width="320" height="32" rx="16" fill="#1e293b" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.2" filter="url(#cardShadow)"/>
+    <circle cx="-136" cy="0" r="4.5" fill="#10b981">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="5" y="5" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" letter-spacing="1.5" text-anchor="middle">
+      CURATED ECOSYSTEM &amp; REPOSITORY
+    </text>
+  </g>
+
+  <!-- Foreground Title -->
+  <g transform="translate(600, 142)">
+    <!-- Subtle drop shadow text for contrast and clarity -->
+    <text x="0" y="2" fill="#000000" opacity="0.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, sans-serif" font-size="46" font-weight="800" text-anchor="middle" letter-spacing="-0.8">
+      AWESOME COMPETITIVE PROGRAMMING
+    </text>
+    <text x="0" y="0" fill="url(#titleGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, sans-serif" font-size="46" font-weight="800" text-anchor="middle" letter-spacing="-0.8">
+      AWESOME COMPETITIVE PROGRAMMING
+    </text>
+  </g>
+
+  <!-- Foreground Subtitle -->
+  <g transform="translate(600, 185)">
+    <text x="0" y="0" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="400" text-anchor="middle" letter-spacing="0.2">
+      The Ultimate Compendium of Algorithms, Data Structures, Platforms, Handbooks &amp; Contest Toolkits
+    </text>
+  </g>
+
+  <!-- Foreground Tagline / Platforms preview -->
+  <g transform="translate(600, 222)">
+    <text x="0" y="0" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13.5" font-weight="500" text-anchor="middle" letter-spacing="0.8">
+      ⚡ Codeforces • AtCoder • LeetCode • USACO Guide • CSES • ICPC • IOI • CP-Algorithms ⚡
+    </text>
+  </g>
+
+  <!-- Key Pillars / Feature Pills (Clean, elegant foreground cards) -->
+  <g transform="translate(600, 298)">
+    <!-- Pill 1: Core DSA -->
+    <g transform="translate(-450, 0)" class="pill-hover">
+      <rect x="0" y="0" width="200" height="62" rx="12" fill="url(#pillGrad1)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.4" filter="url(#cardShadow)"/>
+      <text x="100" y="26" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" text-anchor="middle">🧠 Data Structures</text>
+      <text x="100" y="47" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle">Trees, Graphs, Fenwick &amp; DP</text>
+    </g>
+
+    <!-- Pill 2: Online Judges -->
+    <g transform="translate(-225, 0)" class="pill-hover">
+      <rect x="0" y="0" width="200" height="62" rx="12" fill="url(#pillGrad1)" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.4" filter="url(#cardShadow)"/>
+      <text x="100" y="26" fill="#818cf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" text-anchor="middle">🏆 Contest Platforms</text>
+      <text x="100" y="47" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle">Codeforces, AtCoder, CSES</text>
+    </g>
+
+    <!-- Pill 3: Top Books & Handbooks -->
+    <g transform="translate(0, 0)" class="pill-hover">
+      <rect x="0" y="0" width="200" height="62" rx="12" fill="url(#pillGrad1)" stroke="#c084fc" stroke-width="1.2" stroke-opacity="0.4" filter="url(#cardShadow)"/>
+      <text x="100" y="26" fill="#c084fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" text-anchor="middle">📚 Books &amp; Guides</text>
+      <text x="100" y="47" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle">Antti, CLRS, CP-Algorithms</text>
+    </g>
+
+    <!-- Pill 4: Code Toolkits & Templates -->
+    <g transform="translate(225, 0)" class="pill-hover">
+      <rect x="0" y="0" width="225" height="62" rx="12" fill="url(#pillGrad1)" stroke="#f43f5e" stroke-width="1.2" stroke-opacity="0.4" filter="url(#cardShadow)"/>
+      <text x="112" y="26" fill="#fb7185" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" text-anchor="middle">⚡ Templates &amp; Toolkits</text>
+      <text x="112" y="47" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle">Fast I/O, Snippets &amp; Stress Testers</text>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Line -->
+  <rect x="40" y="416" width="1120" height="2" rx="1" fill="url(#titleGrad)" opacity="0.8" />
+</svg>

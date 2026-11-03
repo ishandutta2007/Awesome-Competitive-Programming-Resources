@@ -1,6 +1,10 @@
 # 🚀 Awesome Competitive Programming Resources
 
 <p align="center">
+  <img src="assets/banner.svg" alt="Awesome Competitive Programming Resources Banner" width="100%">
+</p>
+
+<p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Competitive-Programming-Resources/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Competitive-Programming-Resources?style=for-the-badge&color=yellow" alt="Stars"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Competitive-Programming-Resources/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Competitive-Programming-Resources?style=for-the-badge&color=blue" alt="Forks"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Competitive-Programming-Resources/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Competitive-Programming-Resources?style=for-the-badge&color=red" alt="Issues"></a>
