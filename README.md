@@ -180,3 +180,12 @@ This repository is a comprehensive guide to the **best resources for competitive
 **Keywords:** Competitive Programming, Algorithms, Data Structures, DSA, Coding Interview, ICPC, IOI, Codeforces, LeetCode, AtCoder, Problem Solving, C++, Python, Java, Programming Contest, Algorithm Templates.
 
 I understand. I will provide my entire response in English. How can I help you today?
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Competitive-Programming-Resources&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Competitive-Programming-Resources_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Competitive-Programming-Resources_growth.svg">
+  </picture>
+</a>
