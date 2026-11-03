@@ -179,3 +179,4 @@ This repository is a comprehensive guide to the **best resources for competitive
 ---
 **Keywords:** Competitive Programming, Algorithms, Data Structures, DSA, Coding Interview, ICPC, IOI, Codeforces, LeetCode, AtCoder, Problem Solving, C++, Python, Java, Programming Contest, Algorithm Templates.
 
+I understand. I will provide my entire response in English. How can I help you today?
